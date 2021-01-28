@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+        <title>Halaman 8</title>
+    </head>
+
+    <body>
+
+        <div class="container-fluid" style=" background-color: #8e9aaf; color: white;"><br>
+            <div class="row">
+              <div class="col-md-12">
+                <h4 class="text-center">
+                  Sistem Informasi Seminar Tugas Akhir
+                </h4><br>
+              </div>
+          
+                <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                    <div class="container">
+                        <a class="navbar-brand" style="color: #052473;" href="Halaman_Landing.html">Home</a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                
+                        <div class="collapse navbar-collapse" id="navbarNav" style="font-size: small;">
+                            <ul class="navbar-nav">
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" style="color: #052473;" href="Halaman_Admin.html">Daftar Seminar</a>
+                                </li>
+                                <li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" style="color: #052473;" href="Halaman_Kelola.html">Pemakalah Seminar</a>
+                                </li><li class="nav-item">
+                                  <a class="nav-link active" aria-current="page" style="color: #052473;" href="Halaman_Admin_Kelola.html">Peserta Seminar</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" style="color: #052473;" href="Halaman_Kelola_User.html">Kelola User</a>
+                                </li>
+                            </ul>
+                        </div>
+        
+                        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+                            <ul class="navbar-nav">
+                                <form class="nav-link active">
+                                    <i class="fas fa-search" aria-hidden="true"></i>
+                                    <input class="form-control form-control-sm ml-3 w-75" type="text" placeholder="Search" aria-label="Search">
+                                </form>
+                                <li class="nav-item">
+                                    <a class="nav-link active" aria-current="page" style="color: #052473;" href="Halaman_Landing.html">Logout</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+
+        <div class="container">
+            <div class="row">
+                <div class="d-flex justify-content-flex-star">
+                <lo class="nav-item">
+                    <a class="nav-link active" aria-current="page" style="background-color: #8e9aaf; color: #ffffff; border-style: solid; margin-top: 20px; margin-left: 12px;" href="#">Tambah Seminar Baru</a>
+                </lo>
+            </div>
+        </div>
+
+        <div class="container" style="margin-bottom: 20px;">
+            <div class="row">
+                <div class="card border-primary mb-3 mt-4"><br>
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-12">
+                        
+                            <section class="form">
+                                <div class="col-md-12">
+                                    <legend class="ml-2 w-auto col-md-3">Form Daftar Seminar TA</legend>
+                                        <div class="container">
+                                            <div class="row">
+                                                <div class="col">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                            <div class="form-group">
+                                                                <label for="exampleInputname">NIM</label>
+                                                                <input type="text" class="form-control" id="exampleInputname"
+                                                                    aria-describedby="namelHelp" placeholder="Enter name">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleInputname">Nama</label>
+                                                                <input type="text" class="form-control" id="exampleInputname"
+                                                                    aria-describedby="namelHelp" placeholder="Enter name">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Prodi</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>Sistem informasi</option>
+                                                                    <option>Teknik informatika</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="example-date-input" class="form-label">Tanggal Seminar</label>
+                                                                <input class="form-control" type="date" value="2011-08-19"
+                                                                    id="example-date-input">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="example-time-input" class="form-label">Jam Seminar</label>
+                                                                <input class="form-control" type="time" value="13:45:00"
+                                                                    id="example-time-input">
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleInputruangan">Ruangan</label>
+                                                                <input type="text" class="form-control" id="exampleInputruangan"
+                                                                    aria-describedby="ruanganlHelp" placeholder="Enter ruangan">
+                                                            </div>
+                                                        </form>
+                                                        <button type="button" class="btn btn-primary" style="margin-top : 10px; margin-bottom: 10px;">Update</button>
+                                                        <button type="button" class="btn btn-primary" style="margin-top : 10px; margin-bottom: 10px;">Hapus</button>
+                                                    </form>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <form class="form-2" action="">
+                                                        <form>
+                                                            <div class="form-group">
+                                                                <div class="form-group">
+                                                                    <label for="exampleTextarea">Judul TA</label>
+                                                                    <textarea class="form-control" id="exampleTextarea" rows="3"></textarea>
+                                                                </div>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Seminar</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>hello world</option>
+                                                                    <option>technology 4.0 and society 5.0</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Pembimbing</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>Sirojul munir s.si, m.mkom</option>
+                                                                    <option>yazid </option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Penguji 1</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>ahmad rio m.si</option>
+                                                                    <option>pudy</option>
+                                                                </select>
+                                                            </div>
+                                                            <div class="form-group">
+                                                                <label for="exampleFormControlSelect1">Penguji 2</label>
+                                                                <select class="form-control" id="exampleFormControlSelect1">
+                                                                    <option>Amalia Rahmah m.t</option>
+                                                                    <option>lukman</option>
+                                                                </select>
+                                                            </div>
+                                                        </form>
+                                                    </form>
+                                                </div>
+                                            </div>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </section>
+                        </div>
+                    </div>
+                </div>
+            </div>            
+        </div>
+
+        </div>
+            </div>
+            </div>
+            </div>	
+        </div>
+
+        <div class="footer" style="background-color: #8e9aaf; color: white;"><br>
+            <div class="row">
+                <div class="col-md-12">
+                    <h6 class="text-center">
+                        <span>Project SISTA ©2021</span>
+                    </h6><br>
+                </div>
+            </div>
+        </div>
+	  
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js" integrity="sha384-q2kxQ16AaE6UbzuKqyBE9/u/KzioAlnx2maXQHiDX9d4/zp8Ok3f+M7DPm+Ib6IU" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.min.js" integrity="sha384-pQQkAEnwaBkjpqZ8RU1fF1AKtTcHJwFl3pblpTlHXybJjHpMYo79HY3hIi4NKxyj" crossorigin="anonymous"></script>
+        
+    </body>
+</html>
